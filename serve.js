@@ -1,6 +1,6 @@
 const fs = require('fs');
 const server = require('http').createServer();
-const {Writable} = require('stream');
+const { Writable } = require('stream');
 const { Readable } = require('stream');
 
 //var ws = fs.createWriteStream('out.txt');
